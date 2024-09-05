@@ -7,7 +7,7 @@ name: Build and deploy Python app to Azure Web App - appcredit
 on:
   push:
     branches:
-      - main
+      - app_azure
   workflow_dispatch:
 
 jobs:
